@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+data_cache/*.parquet
+data_cache/*.csv
+data_cache/*.txt
+!data_cache/.gitkeep
+*.egg-info/
+.DS_Store
+.streamlit/secrets.toml
+outputs/*.pdf
+!outputs/.gitkeep
+.env
+.claude/settings.local.json
